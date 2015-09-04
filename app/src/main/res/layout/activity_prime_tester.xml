@@ -44,6 +44,29 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/not_prime"
+        android:id="@+id/resultTextView"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/kitten_caption"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="242dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/kitten"
+        android:layout_gravity="right" />
+
     <Space
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -58,15 +81,6 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_weight="0" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/not_prime"
-            android:id="@+id/resultTextView"
-            android:layout_gravity="center_horizontal"
-            android:textSize="35sp" />
 
         <Space
             android:layout_width="0dp"
